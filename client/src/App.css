@@ -1,0 +1,122 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f5f7fb;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* 左侧标签面板 - 改为淡黄色背景 */
+.tags-panel {
+  width: 200px;
+  background: #FFF9E6;  /* 淡黄色背景 */
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* 加号按钮 - 改为淡蓝色 */
+.add-btn {
+  padding: 8px 12px;
+  background: #E6F4FF;  /* 淡蓝色 */
+  color: #1890ff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-btn:hover {
+  background: #BAE7FF;
+}
+
+/* 中间内容面板 - 改为奶白色 */
+.content-panel {
+  flex-grow: 1;
+  background: #FFFBF4;  /* 奶白色 */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* 添加按钮 - 淡蓝色 */
+.add-idea {
+  padding: 8px 24px;
+  background: #E6F4FF;
+  color: #1890ff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-idea:hover {
+  background: #BAE7FF;
+}
+
+/* AI辅助按钮 - 改为淡黄色 */
+.ai-assist {
+  padding: 8px 24px;
+  background: #FFF9E6;
+  color: #D4B106;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.ai-assist:hover {
+  background: #FFF1B8;
+}
+
+/* 右侧思维导图面板 - 改为奶白色 */
+.mindmap-panel {
+  width: 300px;
+  background: #FFFBF4;  /* 奶白色 */
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
